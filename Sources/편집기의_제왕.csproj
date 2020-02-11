@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB24F9EC-3F9B-4F34-BA33-21A978747515}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>편집기의_제왕</RootNamespace>
+    <AssemblyName>편집기의_제왕</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\0.실행파일\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\0.실행파일\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ghost-in-the-shell-fingers.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\2. 기타\Common\C#\강력하지만무거운변환.cs">
+      <Link>강력하지만무거운변환.cs</Link>
+    </Compile>
+    <Compile Include="..\..\2. 기타\Common\C#\검색.cs">
+      <Link>검색.cs</Link>
+    </Compile>
+    <Compile Include="..\..\2. 기타\Common\C#\변환.cs">
+      <Link>변환.cs</Link>
+    </Compile>
+    <Compile Include="A태그원형복원.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WaveIO.cs" />
+    <Compile Include="WordStat단어통계추가.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WordStat단어통계추가.Designer.cs">
+      <DependentUpon>WordStat단어통계추가.cs</DependentUpon>
+    </Compile>
+    <Compile Include="구문자동분석.cs" />
+    <Compile Include="단어를찾아라.cs" />
+    <Compile Include="단어장.cs" />
+    <Compile Include="동영상용화면.cs" />
+    <Compile Include="메시지를스태틱으로만들기위한클래스.cs" />
+    <Compile Include="메시지박스.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="메시지박스.Designer.cs">
+      <DependentUpon>메시지박스.cs</DependentUpon>
+    </Compile>
+    <Compile Include="문법표지.cs" />
+    <Compile Include="문제.cs" />
+    <Compile Include="바꾸기다이얼로그.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="바꾸기다이얼로그.Designer.cs">
+      <DependentUpon>바꾸기다이얼로그.cs</DependentUpon>
+    </Compile>
+    <Compile Include="어절.cs" />
+    <Compile Include="여기_있던_펜이_어디_갔지.cs" />
+    <Compile Include="오른쪽클릭메뉴.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="오른쪽클릭메뉴.Designer.cs">
+      <DependentUpon>오른쪽클릭메뉴.cs</DependentUpon>
+    </Compile>
+    <Compile Include="찾기다이얼로그.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="찾기다이얼로그.Designer.cs">
+      <DependentUpon>찾기다이얼로그.cs</DependentUpon>
+    </Compile>
+    <Compile Include="텔레키네시스시스템.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="텔레키네시스시스템.Designer.cs">
+      <DependentUpon>텔레키네시스시스템.cs</DependentUpon>
+    </Compile>
+    <Compile Include="한줄.cs" />
+    <Compile Include="해석.cs" />
+    <Compile Include="해석결과창.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="해석결과창.Designer.cs">
+      <DependentUpon>해석결과창.cs</DependentUpon>
+    </Compile>
+    <Compile Include="해석오른쪽클릭메뉴.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="해석오른쪽클릭메뉴.Designer.cs">
+      <DependentUpon>해석오른쪽클릭메뉴.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WordStat단어통계추가.resx">
+      <DependentUpon>WordStat단어통계추가.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="메시지박스.resx">
+      <DependentUpon>메시지박스.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="바꾸기다이얼로그.resx">
+      <DependentUpon>바꾸기다이얼로그.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="오른쪽클릭메뉴.resx">
+      <DependentUpon>오른쪽클릭메뉴.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="찾기다이얼로그.resx">
+      <DependentUpon>찾기다이얼로그.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="텔레키네시스시스템.resx">
+      <DependentUpon>텔레키네시스시스템.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="해석결과창.resx">
+      <DependentUpon>해석결과창.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="해석오른쪽클릭메뉴.resx">
+      <DependentUpon>해석오른쪽클릭메뉴.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ghost-in-the-shell-fingers.ico" />
+    <Content Include="Properties\google.txt" />
+    <None Include="Resources\사전_배경.jpg" />
+    <None Include="Resources\보기1.png" />
+    <None Include="Resources\보기4.png" />
+    <None Include="Resources\보기2.png" />
+    <None Include="Resources\보기3.png" />
+    <None Include="Resources\보기5.png" />
+    <None Include="Resources\본문.png" />
+    <None Include="Resources\힌트.png" />
+    <None Include="Resources\어휘.png" />
+    <None Include="Resources\주관식_해설.png" />
+    <None Include="Resources\주관식.png" />
+    <None Include="Resources\보기3_해설.png" />
+    <None Include="Resources\보기4_해설.png" />
+    <None Include="Resources\보기2_해설.png" />
+    <None Include="Resources\보기1_해설.png" />
+    <None Include="Resources\보기5_해설.png" />
+    <None Include="Resources\해석.png" />
+    <None Include="Resources\질문.png" />
+    <None Include="Resources\제목.png" />
+    <None Include="Resources\해석_배경.png" />
+    <None Include="Resources\지시_비활성화.png" />
+    <None Include="Resources\지시_활성화.png" />
+    <None Include="Resources\흐름_비활성화.png" />
+    <None Include="Resources\흐름_활성화.png" />
+    <None Include="Resources\느낌_활성화.png" />
+    <None Include="Resources\느낌_비활성화.png" />
+    <None Include="Resources\일치_활성화.png" />
+    <None Include="Resources\일치_비활성화.png" />
+    <None Include="Resources\빈칸_비활성화.png" />
+    <None Include="Resources\빈칸_활성화.png" />
+    <None Include="Resources\주제_비활성화.png" />
+    <None Include="Resources\주제_활성화.png" />
+    <None Include="Resources\어휘_활성화.png" />
+    <None Include="Resources\어휘_비활성화.png" />
+    <None Include="Resources\어법_활성화.png" />
+    <None Include="Resources\어법_비활성화.png" />
+    <None Include="Resources\어법_내보내기.png" />
+    <None Include="Resources\흐름.png" />
+    <None Include="Resources\지시.png" />
+    <None Include="Resources\일치.png" />
+    <None Include="Resources\주제.png" />
+    <None Include="Resources\어법.png" />
+    <None Include="Resources\빈칸.png" />
+    <None Include="Resources\느낌.png" />
+    <None Include="Resources\잘못된보기들.txt" />
+    <None Include="Resources\원형탐지기ing.txt" />
+    <None Include="Resources\원형탐지기ed.txt" />
+    <None Include="Resources\원형탐지기.txt" />
+    <None Include="Resources\어휘빈칸예외단어.txt" />
+    <None Include="Resources\word01t.txt" />
+    <None Include="Resources\google.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
