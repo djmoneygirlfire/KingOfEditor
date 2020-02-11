@@ -1,0 +1,28 @@
+D:\프로그램\자작\편집기의_제왕\0.실행파일\편집기의_제왕.exe
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.Form1.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.Properties.Resources.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.메시지를스태틱으로만들기위한클래스.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.바꾸기다이얼로그.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.오른쪽클릭메뉴.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.찾기다이얼로그.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.텔레키네시스시스템.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.해석결과창.resources
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.csproj.GenerateResource.cache
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.csproj.CoreCompileInputs.cache
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.exe
+D:\프로그램\자작\편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.csprojAssemblyReference.cache
+D:\프로그램\자작\0. 편집기의_제왕\0.실행파일\편집기의_제왕.exe
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.Form1.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.Properties.Resources.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.메시지를스태틱으로만들기위한클래스.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.바꾸기다이얼로그.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.오른쪽클릭메뉴.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.찾기다이얼로그.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.텔레키네시스시스템.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.해석결과창.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.csproj.GenerateResource.cache
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.csproj.CoreCompileInputs.cache
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.exe
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.WordStat단어통계추가.resources
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.csprojAssemblyReference.cache
+D:\프로그램\자작\0. 편집기의_제왕\편집기의_제왕\obj\x86\Release\편집기의_제왕.해석오른쪽클릭메뉴.resources
