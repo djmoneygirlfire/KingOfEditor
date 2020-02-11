@@ -1,0 +1,15 @@
+sometime,sometimes
+change,range
+changed,ranged
+changes,ranges
+changing,ranging
+necessary,unnecessary
+few,little
+lonely,alone
+globe,glove
+globes,gloves
+glove,grove
+gloved,groved
+gloves,groves
+ice-skated,ice-skating
+skated,skating

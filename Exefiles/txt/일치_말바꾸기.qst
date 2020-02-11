@@ -1,0 +1,278 @@
+//000B0BBWWWBWBWB0080B0ZZ80B0880BBBB00BBBB0800008Z0BWWWB08Z88880888880080B000BBWWWS.,,;B8Sr2       ..      .,,::;;ii,,:;r7X7iiiir;ii;777XSXXr77SSXXXZ  .                          ;8BBBWW08WX             
+//B888ZZ880WWB08ZZ80WWW000B@WBBBBBBB00BBWW088800088BWWB0Z880B0BWB882222Z80BBBWWBBMM@WWMMMSZ7  .                             :;77rXSrS2SS7XS2ZS7XXX2X0                           ,7WM@WW0082W2             
+//W0888ZZ88BB0ZZZ8BW@WB0ZZ0WBBBBBB008Z80BBB00000800BBW00BBWWWWWWB8ZaZa800BBWBWBBWMr.:i0MMM@                       ..i;;::XX;, :rZa22222XSr;rM,Xa27SXB                         :8MMM@W088888@Z   .         
+//B0008888800008BW@W@WB8SaZZ80880008ZZ88BWBBWB008800000BWWBWWWWB088880BBWWB0WW@MMMXrr..            .,:ii:ii,                     .irrX2aSSXSW,: ,rSSB  .                 . .:;ZMM@WW08888B@MM   .         
+//888008888BBB0BBW@@@0Za2Z88B00000B008000B0BBBBB0BB0880WWWB00BBB080088Z00BBWMMMB.      :2MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM@a7i       iS2M0;MM@i:2W  .                ,iXZ80MMWBBBBB0BWWBM@   .         
+//88880ZZ00WWB08ZB0BWB8ZZ0BWWBBBBWBBB08888800BWB0B0088B@MW088BBW08008ZZZ88MMW   ;8MMMMMMMMMM@WWWWWWWWWWWWWWWWWWW@@@@@MMMMMMMMMMMMMMMMMMW7:   ;MMMM;2W  .                 .7B@@@WWBBBBWWWWB0@@   .         
+//08088Z800BBB000WBBW0BWW@MMWWWBB08888B008800000800008Z888888WWWB0008ZZZZ0M  a888aaaZ80BWM@@@WWBBWWWBBBWWWWWWWWWWWWWWBW@@@@@@@@@@MMMM@WMMMMMW.  :7iSM   .                .7B@WWWBBBWWWWBB08BB             
+//000888800WWB0BBB000Z0B0M@00BBBB82aZ8BBBBBWW808Z808ZaaZ8008BWWBB0888ZZ80BB 22SS2S22aa80MMMMMMM@BBWWB@MMMMMMMMMMM@WBBBBBWMM@@@@@@@@@MMMW0Z88W@MMW2;,X                  .i2WMWBBBWWWWWBB08Z2aa             
+//B08ZZ8800WWWBBBBB8ZaZZ80a2ZZ8BB8aaZ0BBB0BW@08ZZ888888BW@WB000BB0000080BWMa;S2aaZZ088Z@MMM@@WW@B0BBW@MWW@@@@@W@WW@MWBBBB@@MM@@@@@@@@@MMMMWZa2a2SZBMMMBi            .iX0MMMWBWWWWWWW008ZZ2SX2             
+//B88ZaZZZ00BWWBBBBB8ZZZZaaZZ8BBB880WW@WBBW@W8Za2ZaZZZBWBBB00WWWB00B0008088W@;irX2aZZa8M@888800BWBB00BWB08ZaZZZ8888ZZ80BBWBWMM@@W@@@@@@W@MMMMBZaaaaZ8BMMMMX        ,r2BMMWWBBBBW@W@W008ZaSXr;             
+//008ZZZ8Z8880BBBBB00888000BWWW880BW@@WWWWWW08ZZZZaaZZBBBB0BBWBWWWWBB00ZZa2a8MWri72SS2WMBZBB0000@B0800WWW@@W82SSaZ0B0ZZ80000B@M@W@@@@@@@@@@@MMMM82SaZ2a22BMMM,   ,irZBWM@BBWWW@MMMM@0Za7:,, .             
+//88Z88888ZZ88000B0008000B@WWWB880B@@@@@WWW0808888Za0W@@WBBBZZ8ZB@WBBB08Zaaaa0@M@S:,rS8MMMMMM@MMMZ8Z00B@MMMMMMMM0S288ZZZZZ888B@@M@@@WWW@@@@W@@@MMMB22aaS2ZaZWMMa  ;7a8WMMMMM@MMMM@BZXri...  .             
+//00080000080BWWBB0008Z80BWWWWW8Z8W@W@@@WW0888008ZZ880BWWWBWBZZZ0WWWBB088808Z88WMMM02;iM@BMMWBMM2Z80BWWWW@@@MWBZ@MB00ZZ8Z8Z8Z8WM@@WW@@@@@W@@@@@@MMMMBZaaZZa222Z@0 :;2BMWWWBWMMW8Sr::,......:i, .          
+//00000BBB0BBWWWBBBWB080BWWWWWB8Z8B@@@@@WWBB0008Z800BB88888BWW888BWWWB000WB0000BW0WWM@0MX,:7SWMr7Z000BBWB8Za2S222ZB88Z8B0ZZ8Z8M@@@@@@@@@@@@WW@@WWMWMM@8Z222S2a28a,aZWMa7;irS2aS; ..  .,,:i;;7r            
+//088000BBBBBBBB00000BBBW@@@WB8a2ZB@@@@@@WWWWB8880B@W8Za2Z0B@@BZZ8000880008aaZZ0B0B0BWWM.X8@MMi 8BZZZZa8WW0088ZZZZaaZaaaZ2a222@@@W@@@@@@@@@@@@@@@WW0MM@B88aaZ2Sr.X00Zi,:.:7r7XX;,::.:ii;777rXX            
+//008800BB0BBBBWW8000B00BWWWW08Z80BWWWW@WWWB00ZZ880B8aSS20BW@M@0Zaa2a2aZZZZSSZ2a88BBBMM ;a0MM   :8Za2ZaaZZ0B8a22SSS222a2aaZZa2W@@@W@@@@W@@@@@@@@@M@0MMB8SXS22i:iSZa2XrXriX2XSXrrrrrrXX7XX7;;77  .         
+//0800BBBW0BBB@@WB000B000BWBB888BWWBB00BBB88Z22aZZZZaaZZ0WWWMMB8a2SSS2Z8ZZ2aaZ2SZZWW0M  iaa2   7SaZa22SS222a2aZ2a222a2222aZZ220WMM@@MWMM@WWW@@@WWWMBBMMMMMMi 7Z0ZSXXXXSXSX;;ii:i;;ii;;i;7XXSaZ  .       ..
+//0B00WWWWB000BWB0880BB000B008080B0800BBBB00Z2a2a8ZZ8088BWBW@B8Z2aaaZ008ZZaaZZaSSaB00M        r80W@M@@WZSSXXSaaaaaaaa2aaaaaaaa8BW@@M@B@MM@@@@@@@@@@B00WBr. ;8MM02ri;;;;;:..,,,,,,:i;iirXXS22ZB  .        .
+//000BWWWWWBB0BW008Z808BBBWWW088BBB880BWWB000Za2Z80BBBBWWBWB0ZZZZZZZZZ88aaaZZ82XXZB08M       X82Xr   aWW2XXSSS2Za22aaZZa2a2aaa80BWMMM0B0M@@@@@W@@@@W@@M2 rZ88ZX;;::,,.::,::irXS22222222SS2a2ZW         .  
+//8000BBBWWBBB0BBB88088BW@MMMWB0WWWWB00B000BW08Z8Z888000BBWB8a22Z88ZZZ8ZZaaZZ0a22ZW08@;   a:MM08WM@arX8W0222aaa8Za2Zaaa22aZaaZZB0WMB8rX8MMMMMMM@@@@@M@MB.i;i......:i;7X7777SaZZZZ88ZZZZ8Z80@MM. .      . .
+//Z8088000BWBB00BWB0000BWWWB0ZZ0W@@WWBBBB0BBW@W08ZZaZ880BB@B8aaaZ80888008ZaZ0W0aaZB8ZZM  7MM:MWMMMMMM@M0WBZaZ88ZZ8ZZaZa2a0Z2aa22a8ZSS;MMMMMM@0Z@@@WBMMMW.......:i;r77S2aZZZZZZZZ8080BW@MMMMMMM         . .
+//8888080BBWBB00B@WWB08808a22a8WW@@@@WWWBB00BB008ZZZ0BBWWBB8Z22aZ00880BWWB00BBB0ZZ8ZZZM  BM   2MM0aZ0ZaSZW@8a88ZZZZZa8Zaa22ZZZaaaa22S7MMW0a27iZM@@@@W0MM :,:rXSZ8Z888ZaaZ880BW@MMMMMMMMMMX                
+//8ZZZ0BBBBBBB0BBW@W00B0808800W@@@@@@@@WWB8Z8ZZZZZ00WWWWWBB0ZaaaZ88Z880WWWBBBBBB0008Z8@M 0  7iX@MB0XS2XXX 2@8ZaaaZZZ2aaZa2aaZZaaZZZ2X8822aXa;WMM@WWM@BMM,7aBBWBWWBBB0BWMMMMMMMM@WWBBBB0M7     .         ..
+//880BBBBBB00B0BBBB0888BBWW@@WWWWW@@@@@@WWBBW08880800BBBBBW@BZZ2ZZ8Z000BBWWBBBBBBBBB08BM . i    78WM0BW0S; 2B0ZZZaaaZZaa2SaZaZZaaZZ288SSS2r0MMM@@WW@MWMaaWBWW@@@MMMMMMMM@WWBB000000BBBBMX                 
+//0BWWBBB00000BB00B08880BWWWWB0BW@@@@@@@WWWWW080888ZZ000WWBB0ZZZ800800000BBB0000BBWB088MZ 7.X2;M@aZ88W@Z;772ZZ8Z8aaZZZZaZaaZZZa2aZ82@0Si.2MMM@@@@WW@@WB28@MMMMMMM@@WWWBBBBBBB00B000B0B0MS  ...       .  . 
+//80BBB080BBBBBBBBBW00000BWBB080WMW0ZZZBBBB08ZZZZ8ZZ0BWWW088ZaZ0BWB00000BWBB00BBWWB8808WM BMMMMMMMMMMMM@W@@ZZaZZZaaZaZaaZZZZaaZaaZZ2Z@WMMMMW@@@@@@W@@@MZM@W@@@@WWWWWWWBBBBB000000088888Ma                 
+//0BWWB888B00BBBB000000BWWWBB0Z808Z22aZBWBB0ZaaZZ80BWWWBB08ZZZ8BWWB0BBBB0BBBBBBBBBB00088M MMr       r0@MMM80822aZaa2aZaZZZaZ2ZaZZZZ2Z08MM@@@@@W@@@@@W@M8@MMMM@@@WWWBBBBB0008888ZZZZZaaaBa  .              
+//0BWW08Z808Z80BBB888ZZ8BBB00B00Z2Za8WWW0BWB08ZZ000B08880B08880WWB00BWWB0880BWWWBB00B0Z2M 82   ,;aBZ8ZSXa0WBa2222aaaZa22ZZZaZZ2ZZaZZ8a0M@@@@@@@W@@@BWMWXSBWWW@@WWWBBB008ZZaaaa2a2a2SSXSZa     ..        iX
+//00B088BBWBZZ0WWB08ZaaZ0BBBBWWB8Z08W@BBBBBB88Z0BBBB8800BBBB080BWB888BWW8Za8BWWB0BBWB8a2@X  ;@WMMM@BB80Zaa8B0Zaa2a2aaaa2ZZZZZZZZaa88aXMM@@@@@@@@@WB@WWMM@aS088B80BBWB0Za222SSSXX7777X7XaZ           ,r22SX
+//088880W@WWB88B00BBBB00BWWWWWWWWWWWBBBBBB88ZZ8BBB00BBBBB000880BBB080BWB0880BBB080W@@B8aBM :;WMMMMMMM@WB0B0000Za222aaa2aaZaaZZZZZ00aX2MM@@@@@@@@@@@@MMMMW2;288880B0B0Z22X7XX777XXS2aaZ8W@        ;7X7r;ii;
+//BBB00BBBWWW08800BBWWWWWWBBBBB88Z0B00BWBW8ZZZ0B000BBWW088BB880BWWBBBWB0000BBBB08BW@W0ZZ8M      iZZS2Z08a8Z8Z0ZZ2aZaZZa2aZ8Z8Z8008ZaXBMZ@@@@@@@@@@@@M0Z8i:i7Z0WBBWWB0Z2222aaZ800BBW@MMMMMZ: :S008ZZZZZ88ZZ
+//BBWWWWWWWWWB8808080WWWWWWB008ZZZZBWBWBBB88000B000B0BB000WWBB0WW800888888BBBBBBBWWW08a2ZMX       SZZ2aaa2808ZZZZZZaaaaZZ800000ZZZaS7MM@@@@@@@@@@@@MM0aZX2Sa8BMW00WWWWBWWWW@MMMMM@@@@WWB@MMMMMMMMMMMMMM@@W
+//0BWWWWWWWWWB80B0B08BBWWWWBWWW0B00WBBB0BB0008BB0B00000Z88BWBB0BB88Z80880BBB00B0BBWW08ZaZWM   :rZXMWZZZZaaaa8ZZZZ8ZZZZ8800088Zaaa2X78M@@@@@@@@@@@@@MMZ8BWMWWWWMBBB0W@@@MMMM@@WWWB00B0008880BWWWWBBBBBWB00B
+//80WWWWW@@@WB8ZWBBB0BBBBWBWWW@@@@BB8aaZZZ8080BBB00BWBW8ZZ00000BBBB00BBBBW0BBBW00BWWWW08ZBMM  72B0B00WBB8Z8Z8000BB0B88B88Za22aa2X7;XMM@@@W@M@@W@@@MM088aZ8Z0BWMWBBB@@WWW88Z80B000000BB0ZZ80BBBWBWBBBBB0000
+//00WWWWW@@@WB8a0BBBBBWWBWBW@@@@@@@WB0ZZ88000WWB0808B0WWB0BBB0BWWW00B0BWBBWW0B0B0BB0B08880WMM.;2277rXS72aa80BBB0BBBBWB0Za22S2ZaSa0MMMWW@@0WMW@@@@MMBBW8a800BWWM@@MMM@WBWZaaZBBBB0BBWWWB088BBBWBB0088008ZZ8
+//BWWWWWWW@WW00Z80BBWB800B@WWWWWWW@M@B080BB080WWWW8Z80BWBBWWWBB088Z8WWB88000888BB08ZZZaZZ8BBM,2r  7a00BBBBWBBBB88ZZa2aXXr7a0WMMMMMMM@WW@@@@8BMMMMM8BMMMMMMMMMMMMW080BBWWZZZ0WWWWBBBBWB8Zaa80BB00088000ZZZ8
+//WWW@WWBW@@W0008000W0ZZ00WB0800B00BB88Z00ZZZ80WWB88ZZWB880BWWBZZaZ0WW088888880WWB00888000BWMZ0BMMr  :72Z80008ZZa2SX77SBMMMMMMM@@@@@@@@@@@MMMMMM@MMMMMMMWW0aS22X77rXaa80Z888BBB0ZZZ8BB8Z2a880BBBB000BB0000
+//WWW@WB00888ZZ000WBBB888B@WBBWWWB8ZZ88800ZZZ8008Z880W@B08Z0BBB0080WW08Z8B0080WWWBBBBBBWBBWMMM;MZMMMMW2X;;rXX22Z80WMMMMMMM@@@@@@@@WWW@@@@@MM: 8W8Z7iirr;;i::..,:ir7SZ800ZZa8BBB822a8BW00ZZ000BBBWBB0B08800
+//WWW@W088Z88Z8BBBB080880BWW@WWW@WWBZ80BW0888B0ZZ880WWWWWB888BWWWWW@W0880WW00BBBBB0BWBWW@MMM,  SMMMMMMMMMMMMMMMMMMMMM@@@@@@@@@@@@@@@@@@W@@MW2: ;:    .... .i..,iXZB@M@WB8ZZ0WW00ZZ8BWWB0Z80800BBB080B8ZZZB
+//WWW@WW0Z8BWWWBWWW0000BB00BBWWW@@@W888W@WB0BB0800BBWWWWWW08800BBBB0B0ZZ0WWBBBBBBWBWWMMMMM       MB@M@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@W@@@@MM27X;:iSr::r;.,:,r777S0@@@WW@W8ZZ0@@WW80BWWBB0ZZZZ8000000BWZaZZB
+//WBWWB0080W@@WW@@WWBBWWB000BW@WWWWB0aa000B00B00BBBB@WBWWWB880BWWB888888B@MMMMMMMMMMMMM,         SM0BW@@W@@@@@@@@@@@WW@@@@@@@@@W@W@@@@@@@MMrX7XXri@MMMW7;;;SZS22a008ZZ00Zaa88Z8B0000@WBB0000BW0BBBWM@ZZ88W
+//WB00ZZZZ8B@@@@@WBBBBWWBBWWW@@WB08Z0ZZ8800800800BWWWW0WWB880W@WB00BMMMMMMMMB;            . .     MMM@W@W@@W@@@W@@@@@@@@@@@@@@@@W@@W@@@@MMZrXXX77;. X@MMMM@@WZ22SZ808808Za2Z2SSa2Z80@MMMWWWBBWWWWWWW82ZZ2Z
+//WB08ZZaa80W@@WB88Z0BWWBWWWW@@WB8ZZ88800B08808BBBBB008BBB08WMMMMMMMM8X                           aMMMMM@@@W@@WW@@@@W@@@@@@@@W@WWWWWWWW@MM7rX7X7777r.   .;SBMMWZ2a0WWMW0Z88ZZSX2SSSXXSX22Z00BWWB0ZZZ2S2aZa
+//WWWW088880WWW0ZZZZ0BBBBBWWWWW@W08888880WBBBWBB000000WMMMMMMMMS           .                       MBi8MMM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@MMa:rXXr77777Xrrr7i.    iSBMMMMMMB00BBaaaXXX7XXr7S2XSXXSZZ8ZSXS2Z0Z
+//BBWWWBWW0BBWB0ZZ800BBBBBWBB000888808ZZ8BWWWWBBBMMMMMMMMZ,          ...                            MM@WMMMM@@M@@MM@@@M@@@@@@@@@@@@@@@MMWri7XXX7r7r777rr7XX77r;:.    iZMMMMMMM@0ZZaa2SS2aa2SrrX22aSXXSa80Z
+//008000BBBBWB88Z80WWW0800BB0888880BB8ZZ80BWWMMMMM0,                                                Mi  .:rWWWWWWWWWWWWWWW@@@@@@@@@@@@MMrirX77XX77777777r7X777X7X7r;,      rWMMMMBZZ888ZZ8ZXrrSa227;;r2ZZS
+//8ZZZZ880WWB08ZZ8W@W0088B00000BWWW@W008000BMMZ         ......                                      MM@MMMMW@@@@WWWWWWWWWW@WWWWWWWWWWWMZ,;r7777X777777X77r77777r77r77rr7ri.    ,SMMMM0a22aaaaZ808ar;7SZ0ZS
+//B0088880WWB0080WWBB8880080BWW@@@@@0880BB0MM.                                                    . BMa2WMMMMMM@@@@@WW@@@@@@@@@@@@@@@MM,:rr777777777777777rX7777777rrrrrrrrr7r:.   ,ZMMMW8Za22aZ8Z2aZ8BB8S
+//W0BBBB00BWWBWWWWWB08Z80BB0BW@@@@WB8ZZ0WWWMi   .  .  .                                          .  :MM,:7SBMW@M@@WWWW@@@@@@@@@WWW@@@MMirr777777X777777777r7X77r7777r77rrrrrr;;r;;i.   ;8MMM88aa8Z2aZ88Z2S
+//B800WWWWWWWWWWWWWWBB08800BBWW@@@WB8Z8WWWB0       i  .                                          .   MMMrSXXSZZ0W@@W@WWWWWWWWWWW@W@W@MX,;rrr7777r7rr7r77777r777777r77rr777rrrrrr7rrrr;i    iXaaZ8a22SaZZZa
+// 혼이 담긴 구라, 혼을 담은 구라
+// "//"표시가 있는 라인은 "//"표시의 위치에 관계없이 주석처리 됩니다.
+// 거짓말을 만드는데에, 들어가면 어색한 말들은,lier_replace에서 미리 바꾸어 줍니다.
+방향을 잃게 |방향을 수정하게 
+ 혼란스럽게 | 행복하게 
+위한 특별|위한 정기
+차선의 선택|최고의 선택
+7천|3천
+맛있어|맛없어
+일요일|월요일
+ 저녁에 | 점심에 
+ 커진다.| 줄어든다.
+ 확대하면서 | 축소하면서 
+가까이|멀리
+가깝게|멀리
+가능성이 있다.|가능성은 없다.
+가지고 있다.|가지고 있지 않다.
+가지고 있었다.|가지고 있지 않았다.
+갖고 있다.|갖고 있지 않다.
+갖지 않았다.|갖고 있었다.
+개정해야 한다.|고수해야 한다.
+거대한 |작은 
+거칠었다.|부드러웠다.
+것에 개의치 않았다.|것이 신경이 쓰였다.
+것으로 생각했었다.|것으로 생각진 않았다.
+것은 아니다.|것이다. // 문제 있음
+것은 아니다.|것일 수 있다. // 문제 있음
+것을 안다.|것은 모른다.
+것을 알게 되었다.|것을 모르고 있다.
+것을 알고 있다.|것은 모르고 있다.
+것을 의미한다.|것과는 다르다.
+것을 의미했다.|것과는 달랐다.
+것이 아니었다.|것이었다.
+것이기 때문이다.|것은 아니기 때문이다.
+것이다.|것이 아니다. // 문제 있음
+것이었다.|것이 아니었다.
+게 되었다.|지 않게 되었다. //
+게 된다는 것을 알게 되었다.|지는 않는다는 것을 알게 되었다.
+게 만들었다.|지 않게 만들었다.
+고 있었다.|지 않았다.
+관계이다.|관계라고 보기는 어렵다.
+구입하셨다.|팔아버리셨다.
+귀하게 여긴다.|천대한다.
+균형 잡힌|불균형한
+균형잡힌|불균형한
+그 이상이다.|그 이상도 이하도 아니다.
+근본적으로 다른 방식|근본적으로는 같은 방식
+기본적인|고급
+기본적인 것|고급스러운 것
+기뻐하셨다.|괴로워하셨다.
+기회를 갖지 못하고 있다.|기회를 붙잡고 있다.
+끔찍하게|약간
+내보냈다.|들여왔다.
+너무나 심한 고통|가벼운 아픔
+노력을 늘려가는 것이다.|노력을 줄여가는 것이다.
+놀랐다.|놀라지 않았다.
+놓았다.|놓지 않았다.
+눈물 젖은 눈|미소짓는 눈
+느낀다.|느끼지 못한다.
+늘어날|줄어들
+늘려가는 것이다.|줄여가는 것이다.
+다녀야 했다.|다닐 필요는 없었다.
+다시 생각하게 만들었다.|잊어버리게 만들었다.
+생각하게 만들었다.|잊어버리게 만들었다.
+다치지 않았다.|다쳤다.
+대부분의|일부분의 //
+도록 해준다.|지 못하게 한다.
+도움 없이|도움을 통해
+되기 때문이다.|되지는 않기 때문이다.
+되어야 한다.|될 필요는 없다.
+되었다.|되지 않았다. //
+되었을 수 있다.|되지는 않는다.
+되지는 못한다.|된다.
+될 수도 있다.|될 수 없다.
+두껍게|얕게
+두려웠다.|두렵지 않았다.
+듣지 못했다.|들을 수 있었다.
+들어갔다.|들어가지 않았다.
+따듯했다.|차가웠다.
+따뜻했다.|차가웠다.
+로 결정했다.|를 보류했다.
+를 가지고 있다.|는 없다.
+를 결코 잊지 마라.|는 잠시 잊어라.
+를 기억하라.|는 잊어라.
+를 잊지 마라.|는 잊어라.
+를 하게 한다.|를 못하게 한다.
+//많은|적은
+많은 시간을|그리 많지 않은 시간을
+많은 것을 의미한다.|그리 중요하지는 않다.
+매체이다.|매체는 아니다.
+먼 지역|가까운 지역
+멈추지 않을 것 같았다.|멈출 것 같았다.
+멋진 것이 된다.|추한 것이 된다.
+명확했다.|명확하지 않았다.
+무시했다.|소중히 여겼다.
+무언가가 있다.|아무것도 없다.
+믿지 않았다.|믿었다.
+바람직하지 못한|바람직한
+받아들이지 않았다.|받아들였다.
+방법이 있다.|방법은 없다. // 실제로 사용해보니 어색합니다.
+변화하는|정체된
+보기 드물게|흔히 볼 수 있듯
+보였다.|보이진 않았다.
+복잡한|간단한
+부족하다.|충분하다.
+불균형한|균형잡힌
+불리한|유리한
+비생산적이다.|생산적이다.
+비윤리적이다.|윤리적이다.
+뻔뻔하기 짝이없는|염치를 아는
+사실이 아니다.|사실이다.
+사치품|일용품
+살아 남았을 것이다.|살아 남지 못했을 것이다.
+살아남았을 것이다.|살아 남지 못했을 것이다.
+상승하고|하락하고
+새로운|전통적인
+생각할 것이다.|생각하기는 어렵다.
+생각할 수 있을 것이다.|생각하기는 어렵다.
+서서히|급격히
+소리를 줄여라.|소리를 높여라.
+수 밖에 없었다.|수 없었다.
+수 없다.|수 있다.
+수 있다.|수 없다. // 문제 있음
+수는 없다.|수 있다.
+수밖에 없었다.|수 없었다.
+수월하게|확실하게
+쉽다.|어렵다. // "무심코 위반하기가 어렵다." 어색함.
+위반하기 쉽다.|따르기 쉽다.
+쉽지 않았다.|쉬웠다.
+심오한|단순한
+싶어 할 것이다.|싶어 하지는 않을 것이다.
+아프게|건강하게
+알려줄 것이다.|알려주지 않을 것이다.
+어려움을 겪을 수 있다.|혜택을 받을 수 있다.
+없애도 좋다.|없애서는 안된다.
+// 없었다.|있었다. 아무도 없었다 > 아무도 있었다는 어색함.
+아무도 없었다.|몇몇이 있었다.
+에 귀기울여야 한다.|에 지나치게 신경써서는 안된다.
+에 있어서도 마찬가지다.|에 있어서는 차이점이 있다.
+에서 나오려고 했다.|으로 들어가려 했다.
+에서 시간을 보냈다.|에 있었던 적은 없다.
+영원히|잠깐만
+우연히 들었다.|듣지 못했다.
+울면서,|웃으며,
+위로해 주었다.|괴롭게 하였다.
+으로 들어갔다.|에서 나왔다.
+으로 들어오고 있다.|에서 나가고 있다.
+은 아니었다.|이었다.
+을 가지고 있다.|이 없다.
+을 결코 잊지 마라.|은 잠시 잊어라.
+을 기억하라.|은 잊어라.
+을 잊지 마라.|은 잊어라.
+을 하게 한다.|을 못하게 한다.
+이 된다.|이 될 수 없다.
+이 없는 |이 있는 
+이루어졌다.|이루어지지 못했다.
+이었다.|이 아니었다. //
+이유가 있다.|이유가 없다.
+있게 된다.|있지 않게 된다.
+있다고 한다.|없다고 한다. // 문제 있음
+있지 않다.|있다.
+자신을 발전시키고자 한다.|자신을 희생시키고자 한다.
+자연과 조화를 이루며|자연을 정복하며
+작은 길|거대한 길
+재능이 드러나는|재능이 숨어있는
+절반 가까이가|대부분이
+정말로 중요한|사소한
+좋아한다.|싫어한다.
+좋은 생각이다.|좋은 생각이 아니다.
+주는 것으로 보인다.|주지는 않는다.
+주는 것처럼 보인다.|주지는 않는다.
+주었다.|주지 않았다.
+주지 않는다.|준다.
+줄 것으로 보인다.|주지는 않을 것으로 보인다.
+줄 수는 있다.|줄 수는 없다.
+줄여가는 것이다.|늘려가는 것이다.
+중요하다.|중요하지 않다. //
+중요할 수 있다.|중요하지 않다. //
+증가|감소
+증가한다.|감소한다.
+증가한다는 것이다.|감소한다는 것이다.
+증가할 수 있다.|감소할 수 있다.
+지 못하도록 하려고 노력한다.|도록 한다.
+지 못하도록 하려고 노력했었다.|도록 하였다.
+지 못하도록 하였다.|도록 하였다.
+// 지 못했다.|었다. // 다니지 못했다를 다니었다로 바꾸니 어색함
+ 눈에 띄는 | 숨겨진 
+지 않게 되었던 것이다.|게 된 것이다.
+지 않게 된 것이다.|게 된 것이다.
+지 않는 것처럼 보일 것이다.|는 것처럼 보일 것이다.
+직면했던 것이다.|모르던 것이다.
+질 것이다.|지지는 않을 것이다.
+처럼 보일 것이다.|처럼 보이지는 않을 것이다.
+초대했다.|내쫓았다.
+최대한|최소한
+최대화|최소화
+최소한|최대한
+추한 것이 된다.|멋진 것이 된다.
+친절하게|무뚝뚝하게
+침착했다.|안절부절했다.
+커다란|작은
+필수적이다.|불필요하다. // 문맥의 흐름상 너무 뻔히 보인다
+필요가 있다.|필요는 없다. // 문맥의 흐름상 너무 뻔히 보인다
+필요도 없게 될 것이다.|필요가 생길 것이다.
+하고 있는 것이다.|하는 것이 아니다.
+하고 있다.|하지 않고 있다. // 어색한 경우 있음
+하고 있었다.|하지 않고 있었다.
+하는 것이다.|하는 것이 아니다.
+하다.|하지 않다. //
+하라고 요청하고 있는 것이다.|하지 말라고 요청하고 있는 것이다.
+하려고 하고 있었다.|하지 않으려 하고 있었다.
+할 수 있다.|할 수 없다. // 문제 있음
+할 수 있었다.|할 수 없었다.
+할 수도 있다.|하지는 않는다.
+해 주지 않을 것이다.|해 줄 것이다.
+해 주지는 못한다.|해 준다.
+해야 했다.|할 필요가 없었다.
+해야만 한다.|할 필요가 없다.
+해준다.|해 주지는 못한다.
+했다.|하지 않았다. //
+했음에 틀림없다.|하진 않았다.
+ 효과적| 비효율적 // 너무 뻔하고 이상합니다.
+훨씬|약간
+훌륭한|일반적인
+힘든|쉬운
+힘을 주고 받는다.|힘을 상쇄시킨다
+// 천재1 - 고등학교 2학년
+매번 공직에서 쫓겨났다.|항상 일을 잘 처리했다.
